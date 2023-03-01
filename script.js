@@ -18,4 +18,6 @@ personalAdvice.push('You will have: ' + fortuneOutput);
 let adviceOutput = advice[Math.floor(Math.random() * advice.length)];
 personalAdvice.push('You must: ' + adviceOutput);
 //console.log('You must: ' + adviceOutput);
+
+//Print out the three messages from the personalAdvice array
 console.log(personalAdvice);
